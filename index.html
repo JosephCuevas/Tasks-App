@@ -7,8 +7,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
+    <!-- NAVIGATION-->
     <nav class="navbar navbar-ligth bg-ligth">
-        <a href="#" class="navbar-brand">Task app</a>
+        <div class="container">
+            <a href="#" class="navbar-brand">Task app</a>
+        </div>
     </nav>
+
+    <!-- MAIN CONTENT-->
+    <div class="row pt-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <form id="formtask">
+                        <div class="form-group">
+                            <input type="text" id="title" placeholder="Add a to Todo" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <textarea type="text" id="description" placeholder="Description" rows="8" cols="80" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Save</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md8">
+
+        </div>
+    </div>
 </body>
 </html>
